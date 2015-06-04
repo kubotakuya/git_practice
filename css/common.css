@@ -1,3 +1,7 @@
+html body {
+  margin: 0;
+}
+
 nav {
   background: #e0e0e0;; 
 }
@@ -14,4 +18,21 @@ article {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #e0e0e0;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+  background: #545454;
+  color: #FFFFFF;
+  padding: 0 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
